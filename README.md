@@ -6,7 +6,7 @@ If you have any questions ask Yufan.
 ### Cantrips  
 #### Minor Illusion  
 - <ins>Virtual Environment</ins>:  
-    `python3 -m venv name_of_ur_virt_env` creates a virtual environment in your current directory
+    `python3 -m venv name_of_ur_virt_env` creates a virtual environment in your current directory  
     `source name_of_ur_virt_env/bin/activate` activate you virtual environment
     Each with their own independent set of Python packages installed in their site directories
     Known as the virtual environment’s “base” Python
