@@ -143,6 +143,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# if your venv file is not named on of the above add to list below
+my-env
 
 # Spyder project settings
 .spyderproject

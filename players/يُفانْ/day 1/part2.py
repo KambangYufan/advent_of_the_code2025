@@ -3,11 +3,11 @@ with open(file_path, "r") as file:
     lines = file.readlines()
 
 def nextLockNumber(current_numb, direction, quantity):
-    if direc == "R":
+    if direction == "R":
         new_number = current_numb + quantity
         lock_num = new_number%100
         return(lock_num, new_number)
-    if direc == "L":
+    if direction == "L":
         new_number = current_numb - quantity
         lock_num = new_number%100
         return(lock_num, new_number)
@@ -41,4 +41,5 @@ for line in lines:
     number_on_lock = lock2
     # print(f"this is the limbo number: {limbo_num}")
     # print(f"this is the new lock number: {number_on_lock}")
-    print(f"this number is wehn zero touched or passed: {zero}")
+
+print(f"this number is when zero touched or passed: {zero}")
